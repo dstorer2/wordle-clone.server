@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 1234;
+const port = process.env.PORT || 1234;
 const cors = require("cors");
 const axios = require("axios");
 require('dotenv').config();
